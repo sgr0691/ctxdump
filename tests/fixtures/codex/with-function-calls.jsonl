@@ -1,0 +1,5 @@
+{"timestamp":"2025-05-09T09:00:00.000Z","type":"session_meta","payload":{"id":"deadbeef-cafe-1234-5678-000000000001","timestamp":"2025-05-09T09:00:00.000Z","cwd":"/workspace","originator":"user","cli_version":"0.1.0","source":"cli"}}
+{"timestamp":"2025-05-09T09:00:01.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Create a new file called hello.txt with the content 'Hello, world!'"}]}}
+{"timestamp":"2025-05-09T09:00:02.000Z","type":"response_item","payload":{"type":"function_call","name":"create_file","arguments":"{\"path\":\"hello.txt\",\"content\":\"Hello, world!\"}","call_id":"fn_001"}}
+{"timestamp":"2025-05-09T09:00:03.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"fn_001","output":"File created successfully at hello.txt"}}
+{"timestamp":"2025-05-09T09:00:04.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"I've created the file `hello.txt` with the content 'Hello, world!'."}]}}

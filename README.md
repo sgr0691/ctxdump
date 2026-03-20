@@ -14,14 +14,26 @@ Switching between tools like Codex, Claude, and Cursor sucks when you lose conte
 
 ## Install
 
+### npm
 ```bash
 npm install -g ctxdump
 ```
 
+### Bun
+```bash
+bun add -g ctxdump
+```
+
 Or run without installing:
 
+### npx
 ```bash
 npx ctxdump codex
+```
+
+### bunx
+```bash
+bunx ctxdump codex
 ```
 
 ---

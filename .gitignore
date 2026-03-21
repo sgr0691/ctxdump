@@ -6,6 +6,12 @@ out
 dist
 *.tgz
 
+# planning docs (local only - not for repo)
+ImplementationPlan_ctxdump_final.md
+PRD_ctxdump_final.md
+SystemDesign_ctxdump_final.md
+TechSpec_ctxdump_final.md
+
 # code coverage
 coverage
 *.lcov

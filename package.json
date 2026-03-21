@@ -1,0 +1,27 @@
+{
+  "name": "ctxdump",
+  "version": "0.1.0",
+  "description": "Export AI chat context from local LLM tools into clean, portable markdown or JSON",
+  "module": "src/index.ts",
+  "main": "src/index.ts",
+  "bin": {
+    "ctxdump": "./src/index.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@vitest/coverage-v8": "^4.1.0",
+    "vitest": "^4.1.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@crustjs/core": "^0.0.15",
+    "@crustjs/plugins": "^0.0.19"
+  }
+}
